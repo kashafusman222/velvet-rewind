@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff8f2;
+    color: #4b3f3f;
+    text-align: center;
+}
+
+header {
+    background-color: #f7e7e1;
+    padding: 30px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4b3f3f;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d98c8c;
+}
+
+nav a:not(:last-child)::after {
+    content: "|";
+    margin-left: 15px;
+    color: #b8a5a5;
+}
+
+.hero {
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero h4 {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.categories {
+    margin: 30px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #d98c8c;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #c77777;
+}
+
+.intro {
+    padding: 40px 20px;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #f7e7e1;
+    padding: 25px;
+    margin-top: 30px;
+    font-size: 15px;
+    line-height:1.6;
+    font-style: italic;
+}
+
+.about {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/*about page */
+
+.about h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.closing-line {
+    font-style: italic;
+    margin-top: 30px;
+}
